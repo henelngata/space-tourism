@@ -1,0 +1,98 @@
+.spacetext {
+  border: 2px solid red;
+  margin-top: 2em;
+  margin-bottom: 8em;
+}
+.so_you_want {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.space {
+  width: 100%;
+  position: relative;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.lets_face_it {
+  width: 100%;
+  position: relative;
+  font-size: 15px;
+  line-height: 180%;
+  text-align: center;
+  display: inline-block;
+}
+.mobile_nav {
+  position:absolute;
+  display: none;
+  top: 2vh;
+  right: 1em;
+  height: 80vh;
+  width: 20vh;
+
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.close {
+  position: relative;
+  right: -80%;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+.list_items {
+  margin-bottom: 1.5em;
+}
+.links:link,
+.links:active {
+  display: block;
+  border-right: 2px solid white;
+}
+.list_num {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* tab styles */
+.nav{
+
+  width: 80%;
+ padding-top: 1em;
+ padding-left: 1em;
+ padding-right: 1em;
+ height: 10vh;
+ background-color: rgba(255, 255, 255, .0334);
+ 
+}
+.tab_items{
+
+padding-bottom: 2em;
+margin-bottom: 10px;
+}
+.tab_items:hover{
+  border-bottom: 2px solid white;
+}
+/* tab styles */
+
+.desktop{
+  width: 70%;
+ padding-top: 1em;
+ padding-left: 1em;
+ padding-right: 1em;
+ height: 10vh;
+ background-color: rgba(255, 255, 255, .0334);
+ 
+}
+.div{
+  position: relative;
+  width: 40%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  left: 4em;
+  z-index: 1;
+}
